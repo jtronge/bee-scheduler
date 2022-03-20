@@ -1,0 +1,24 @@
+{
+    "task-68": {
+        "id": "task-68",
+        "runtime": 43,
+        "cores": 1,
+        "data_deps": {}
+    },
+    "task-69": {
+        "id": "task-69",
+        "runtime": 53,
+        "cores": 1,
+        "data_deps": {
+            "task-68": 1
+        }
+    },
+    "task-70": {
+        "id": "task-70",
+        "runtime": 54,
+        "cores": 1,
+        "data_deps": {
+            "task-69": 1
+        }
+    }
+}

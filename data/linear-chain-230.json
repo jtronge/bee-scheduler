@@ -1,0 +1,16 @@
+{
+    "task-1289": {
+        "id": "task-1289",
+        "runtime": 146,
+        "cores": 1000,
+        "data_deps": {}
+    },
+    "task-1290": {
+        "id": "task-1290",
+        "runtime": 73403,
+        "cores": 1000,
+        "data_deps": {
+            "task-1289": 1000
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "task-719": {
+        "id": "task-719",
+        "runtime": 643,
+        "cores": 500,
+        "data_deps": {}
+    },
+    "task-720": {
+        "id": "task-720",
+        "runtime": 615,
+        "cores": 740,
+        "data_deps": {
+            "task-719": 500
+        }
+    },
+    "task-721": {
+        "id": "task-721",
+        "runtime": 558,
+        "cores": 1000,
+        "data_deps": {
+            "task-720": 740
+        }
+    },
+    "task-722": {
+        "id": "task-722",
+        "runtime": 612,
+        "cores": 1500,
+        "data_deps": {
+            "task-721": 1000
+        }
+    },
+    "task-723": {
+        "id": "task-723",
+        "runtime": 594,
+        "cores": 2000,
+        "data_deps": {
+            "task-722": 1500
+        }
+    },
+    "task-724": {
+        "id": "task-724",
+        "runtime": 735,
+        "cores": 3000,
+        "data_deps": {
+            "task-723": 2000
+        }
+    }
+}

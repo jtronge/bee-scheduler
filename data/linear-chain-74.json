@@ -1,0 +1,32 @@
+{
+    "task-404": {
+        "id": "task-404",
+        "runtime": 107,
+        "cores": 10000,
+        "data_deps": {}
+    },
+    "task-405": {
+        "id": "task-405",
+        "runtime": 1112,
+        "cores": 200,
+        "data_deps": {
+            "task-404": 10000
+        }
+    },
+    "task-406": {
+        "id": "task-406",
+        "runtime": 600,
+        "cores": 400,
+        "data_deps": {
+            "task-405": 200
+        }
+    },
+    "task-407": {
+        "id": "task-407",
+        "runtime": 293,
+        "cores": 1600,
+        "data_deps": {
+            "task-406": 400
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "task-1020": {
+        "id": "task-1020",
+        "runtime": 24387,
+        "cores": 200,
+        "data_deps": {}
+    },
+    "task-1021": {
+        "id": "task-1021",
+        "runtime": 87,
+        "cores": 32,
+        "data_deps": {
+            "task-1020": 200
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "task-932": {
+        "id": "task-932",
+        "runtime": 44699,
+        "cores": 100,
+        "data_deps": {}
+    },
+    "task-933": {
+        "id": "task-933",
+        "runtime": 45030,
+        "cores": 100,
+        "data_deps": {
+            "task-932": 100
+        }
+    }
+}

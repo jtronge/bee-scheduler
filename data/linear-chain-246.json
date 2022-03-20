@@ -1,0 +1,72 @@
+{
+    "task-1386": {
+        "id": "task-1386",
+        "runtime": 43794,
+        "cores": 100,
+        "data_deps": {}
+    },
+    "task-1387": {
+        "id": "task-1387",
+        "runtime": 5408,
+        "cores": 400,
+        "data_deps": {
+            "task-1386": 100
+        }
+    },
+    "task-1388": {
+        "id": "task-1388",
+        "runtime": 29376,
+        "cores": 400,
+        "data_deps": {
+            "task-1387": 400
+        }
+    },
+    "task-1389": {
+        "id": "task-1389",
+        "runtime": 98551,
+        "cores": 500,
+        "data_deps": {
+            "task-1388": 400
+        }
+    },
+    "task-1390": {
+        "id": "task-1390",
+        "runtime": 100866,
+        "cores": 500,
+        "data_deps": {
+            "task-1389": 500
+        }
+    },
+    "task-1391": {
+        "id": "task-1391",
+        "runtime": 728,
+        "cores": 500,
+        "data_deps": {
+            "task-1390": 500
+        }
+    },
+    "task-1392": {
+        "id": "task-1392",
+        "runtime": 181902,
+        "cores": 2000,
+        "data_deps": {
+            "task-1391": 500
+        }
+    },
+    "task-1393": {
+        "id": "task-1393",
+        "runtime": 187894,
+        "cores": 2000,
+        "data_deps": {
+            "task-1392": 2000
+        }
+    },
+    "task-1394": {
+        "id": "task-1394",
+        "runtime": 2888,
+        "cores": 576,
+        "data_deps": {
+            "task-1393": 2000
+        }
+    }
+}

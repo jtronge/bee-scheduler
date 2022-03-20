@@ -1,0 +1,72 @@
+{
+    "task-661": {
+        "id": "task-661",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {}
+    },
+    "task-662": {
+        "id": "task-662",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-661": 40
+        }
+    },
+    "task-663": {
+        "id": "task-663",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-662": 40
+        }
+    },
+    "task-664": {
+        "id": "task-664",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-663": 40
+        }
+    },
+    "task-665": {
+        "id": "task-665",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-664": 40
+        }
+    },
+    "task-666": {
+        "id": "task-666",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-665": 40
+        }
+    },
+    "task-667": {
+        "id": "task-667",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-666": 40
+        }
+    },
+    "task-668": {
+        "id": "task-668",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-667": 40
+        }
+    },
+    "task-669": {
+        "id": "task-669",
+        "runtime": 87,
+        "cores": 40,
+        "data_deps": {
+            "task-668": 40
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "task-1322": {
+        "id": "task-1322",
+        "runtime": 97598,
+        "cores": 500,
+        "data_deps": {}
+    },
+    "task-1323": {
+        "id": "task-1323",
+        "runtime": 96137,
+        "cores": 500,
+        "data_deps": {
+            "task-1322": 500
+        }
+    },
+    "task-1324": {
+        "id": "task-1324",
+        "runtime": 128357,
+        "cores": 2000,
+        "data_deps": {
+            "task-1323": 500
+        }
+    },
+    "task-1325": {
+        "id": "task-1325",
+        "runtime": 85287,
+        "cores": 2000,
+        "data_deps": {
+            "task-1324": 2000
+        }
+    },
+    "task-1326": {
+        "id": "task-1326",
+        "runtime": 172800,
+        "cores": 2560,
+        "data_deps": {
+            "task-1325": 2000
+        }
+    },
+    "task-1327": {
+        "id": "task-1327",
+        "runtime": 92,
+        "cores": 576,
+        "data_deps": {
+            "task-1326": 2560
+        }
+    },
+    "task-1328": {
+        "id": "task-1328",
+        "runtime": 84,
+        "cores": 576,
+        "data_deps": {
+            "task-1327": 576
+        }
+    },
+    "task-1329": {
+        "id": "task-1329",
+        "runtime": 117,
+        "cores": 200,
+        "data_deps": {
+            "task-1328": 576
+        }
+    }
+}

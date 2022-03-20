@@ -1,0 +1,40 @@
+{
+    "task-59": {
+        "id": "task-59",
+        "runtime": 342,
+        "cores": 500,
+        "data_deps": {}
+    },
+    "task-60": {
+        "id": "task-60",
+        "runtime": 31,
+        "cores": 500,
+        "data_deps": {
+            "task-59": 500
+        }
+    },
+    "task-61": {
+        "id": "task-61",
+        "runtime": 907,
+        "cores": 1,
+        "data_deps": {
+            "task-60": 500
+        }
+    },
+    "task-62": {
+        "id": "task-62",
+        "runtime": 296,
+        "cores": 1000,
+        "data_deps": {
+            "task-61": 1
+        }
+    },
+    "task-63": {
+        "id": "task-63",
+        "runtime": 31,
+        "cores": 500,
+        "data_deps": {
+            "task-62": 1000
+        }
+    }
+}
